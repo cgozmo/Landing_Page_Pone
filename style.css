@@ -3,6 +3,158 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px 10px;
+    background-color: #1f2937;
+}
+.logo{
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
   }
+
+a, .text_1{
+    color: #e5e7eb;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+.block1{
+    height: auto;
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 15px 100px 50px;
+    flex-wrap: wrap;
+    
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.section2{
+    width: 50%;
+
+}
+
+.H1{
+    color: #f9faf8;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin-top: 10px;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 900;
+
+}
+
+.button1{
+    border: 1px solid #3882f6;
+
+}
+
+.img_block1{
+    width: 100%;
+    height: 200px;
+}
+
+
+.block2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.H2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.box_img{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.text_2{
+    color: #424141;
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 15px;
+    text-align: center;
+}
+   
+.block3{
+    background-color: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text_3, .text_4{
+    padding-right: 15%;
+    padding-left: 15%;
+    
+}
+
+.text_3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.text_4{
+    text-align: right;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
