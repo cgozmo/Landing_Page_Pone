@@ -30,7 +30,7 @@ ul {
     gap: 16px
   }
 
-a, .text_1{
+a, .text_1, .text_6{
     color: #e5e7eb;
     font-size: 16px;
     text-decoration: none;
@@ -157,4 +157,37 @@ button{
     padding-top: 10px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.block4{
+    padding: 5% 12%;
+
+}
+
+.cta{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #3882f6;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 20px;
+
+}
+
+.text_5{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.button2{
+    border: 1px solid white
+}
+
+.footer{
+    padding: 15px;
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+
 }
