@@ -18,9 +18,12 @@ body {
     background-color: #1f2937;
 }
 .logo{
-  width: 100px;
-  height: 50px;
-  padding: 10px;
+    margin: 0;
+    padding: 0;
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bold;
+
 }
 ul {
     display: flex;
@@ -43,8 +46,9 @@ a, .text_1, .text_6{
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    padding: 15px 100px 50px;
+    padding: 50px 100px 50px;
     flex-wrap: wrap;
+  
     
 }
 
